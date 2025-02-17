@@ -92,7 +92,7 @@ const TodoApp = () => {
     <div className="full">
       <h1 className="title">Todo</h1>
       <div className="todo-app">
-        <div className="todo-header">
+        <div className="todo-header" > <img src="./foni.png" alt="" />
           <span className="current-date">{formatCurrentDate(currentTime)}</span>
           <span className="time-display">{formatTime(currentTime)}</span>
         </div>
